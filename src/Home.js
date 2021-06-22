@@ -47,7 +47,10 @@ useEffect ( () => {
         //            })
         //       }
 
-            
+            // const handleFave = () =>{
+            //         console.log("Favorite team")
+
+            // }
 
         return ( 
             <div className = "home">
