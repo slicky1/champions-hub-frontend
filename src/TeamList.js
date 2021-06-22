@@ -1,4 +1,4 @@
-const TeamList = ({clubs,}) => {
+const TeamList = ({clubs}) => {
 
     const handleDelete =  (id)=> {
 
