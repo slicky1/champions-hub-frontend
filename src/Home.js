@@ -13,6 +13,10 @@ const Home = () => {
         const [search, setSearch] = useState (" ");
         const [error, setError]  = useState(null);
         // const [deleteClub, setDeleteClub] = useState('')
+
+        const displayClub = clubs.filter((club) =>
+            club.team.toLowerCase().includes(search.toLowerCase())
+            );
         
         
 useEffect ( () => {
@@ -36,9 +40,7 @@ useEffect ( () => {
         }, []  );
         // Stop rerenders
 
-            const displayClub = clubs.filter((club) =>
-            club.country.toLowerCase().includes(search.toLowerCase())
-            );
+            
 
         //  const handleDelete =  (id)=> {
 
