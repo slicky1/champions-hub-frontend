@@ -15,7 +15,7 @@ const Home = () => {
         // const [deleteClub, setDeleteClub] = useState('')
 
         const displayClub = clubs.filter((club) =>
-            club.team.toLowerCase().includes(search.toLowerCase())
+            club.country.toLowerCase().includes(search.toLowerCase())
             );
         
         
